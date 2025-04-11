@@ -25,6 +25,7 @@ function indices(array){
 
 console.log(indices([-3, 2, 7, 10, 5]));
 console.log(indices([0, 4, 9]))
+console.log(indices([2, 7, -1, 19, 25]))
 console.log(indices([]));
 
 

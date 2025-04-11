@@ -3,13 +3,10 @@
 
 function multiploSoma(){
     
-    let multiple5 = 0;
-    let multiple7 = 0;
     let soma = 0;
     
-    // se colocar i <= value, os números que são iguais acabam sendo somados juntos. 
-    for (let i = 0; i <= 50; i++) {
-      if(i % 5 == 0 || i % 7 === 0){
+    for (let i = 0; i <= 1000; i++) {
+      if(i % 5 == 0 || i % 7 === 0){ //fazendo OU para que não seja repetido os mesmos valores
         soma += i;
       }
         
